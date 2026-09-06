@@ -8,3 +8,15 @@ wheels/
 
 # Virtual environments
 .venv
+
+
+# Data files, which are often large and sometimes confidential
+data/raw/
+*.csv
+*.xlsx
+
+# Credentials, which must never be committed
+.env
+
+# macOS clutter (harmless to include even if you are on Windows/Linux)
+.DS_Store
